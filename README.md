@@ -94,13 +94,13 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-```
+
 <img width="1916" height="1078" alt="Screenshot 2026-11-01 215530" src="https://github.com/user-attachments/assets/2f9afe20-ca71-458b-aa19-b65e4c3b6595" />
 <img width="1917" height="1078" alt="Screenshot 2026-11-01 215737" src="https://github.com/user-attachments/assets/8f6c2003-67ae-41c6-a785-e90020549d5d" />
 <img width="1917" height="1078" alt="Screenshot 2026-11-01 215755" src="https://github.com/user-attachments/assets/4c3a765a-54df-4021-9518-f9ee0ab015e1" />
 <img width="1917" height="1078" alt="Screenshot 2026-11-01 215813" src="https://github.com/user-attachments/assets/927161cf-682d-4f55-8c29-d863cb11b495" />
 <img width="1917" height="1078" alt="Screenshot 2026-11-01 220150" src="https://github.com/user-attachments/assets/5e545504-4934-44d1-afa4-84cce6fcba96" />
-```
+
 
 
 
