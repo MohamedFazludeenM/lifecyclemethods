@@ -73,36 +73,39 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 }
+
 ```
 ## Activity_main.xml
 ```
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="16dp">
-    <TextView
-        android:layout_width="310dp"
-        android:layout_height="86dp"
-        android:gravity="center"
-        android:text="@string/hello_details"
-        android:textColor="#333333"
-        android:textSize="18sp" />
+    android:layout_height="match_parent">
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
 ```
 
 ## OUTPUT
-
-<img width="1916" height="1078" alt="Screenshot 2026-11-01 215530" src="https://github.com/user-attachments/assets/2f9afe20-ca71-458b-aa19-b65e4c3b6595" />
-<img width="1917" height="1078" alt="Screenshot 2026-11-01 215737" src="https://github.com/user-attachments/assets/8f6c2003-67ae-41c6-a785-e90020549d5d" />
-<img width="1917" height="1078" alt="Screenshot 2026-11-01 215755" src="https://github.com/user-attachments/assets/4c3a765a-54df-4021-9518-f9ee0ab015e1" />
-<img width="1917" height="1078" alt="Screenshot 2026-11-01 215813" src="https://github.com/user-attachments/assets/927161cf-682d-4f55-8c29-d863cb11b495" />
-<img width="1917" height="1078" alt="Screenshot 2026-11-01 220150" src="https://github.com/user-attachments/assets/5e545504-4934-44d1-afa4-84cce6fcba96" />
-
-
-
+<img width="1917" height="1078" alt="Screenshot 2026-11-05 211119" src="https://github.com/user-attachments/assets/72c6b85d-119a-4a42-a5b6-19e918b1d0a0" />
+<img width="1917" height="1078" alt="Screenshot 2026-11-05 211139" src="https://github.com/user-attachments/assets/bdc15c3b-555a-4f11-a797-5a2f7ca324ce" />
+<img width="1917" height="1078" alt="Screenshot 2026-11-05 211158" src="https://github.com/user-attachments/assets/ab31846b-6e61-44db-a5da-ea99a3360c40" />
+<img width="1917" height="1078" alt="Screenshot 2026-11-05 211207" src="https://github.com/user-attachments/assets/3fb582fd-c49c-4200-8f99-f7e7a6cb1fee" />
+<img width="1917" height="1078" alt="Screenshot 2026-11-05 211554" src="https://github.com/user-attachments/assets/3fbafd91-1834-4acd-b452-1c41a24a56c9" />
 
 
 ## RESULT
